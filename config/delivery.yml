@@ -42,7 +42,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: gcr.io/api-gw-on-gcp/supply-chain/tanzu-spring-pet-dev3@sha256:b5ce9861be929968bdb3d0fd218f4a320faa5283d288e89dd9ae7ace785452bb
+        image: gcr.io/api-gw-on-gcp/supply-chain/tanzu-spring-pet-dev3@sha256:c55ca17c92ba974f32c903d8e67851840ca2fc0850a599023000e2df6f93e6b2
         name: workload
         ports:
         - containerPort: 8080
