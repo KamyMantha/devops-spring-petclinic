@@ -12,6 +12,7 @@ spec:
   template:
     metadata:
       annotations:
+        autoscaling.knative.dev/minScale: "2"
         boot.spring.io/actuator: http://:8081/actuator
         boot.spring.io/version: 2.3.3.RELEASE
         conventions.apps.tanzu.vmware.com/applied-conventions: |-
